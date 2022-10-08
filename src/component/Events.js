@@ -1,9 +1,16 @@
 import React from 'react'
+import Ongoing from './Events/Ongoing'
+import Upcoming from './Events/Upcoming'
+import Past from './Events/Past';
 
-export default function Events() {
-    return (
-        <div>
-            this is the events component
-        </div>
-    )
+const Events = () => {
+  return (
+    <>
+    <Ongoing />
+    <Upcoming />
+    <Past />
+    </>
+  )
 }
+
+export default Events;
